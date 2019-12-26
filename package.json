@@ -16,6 +16,8 @@
     "@expo/vector-icons": "~10.0.0",
     "@react-navigation/web": "~1.0.0-alpha.9",
     "expo": "~36.0.0",
+    "expo-app-auth": "~8.0.0",
+    "expo-apple-authentication": "~2.0.0",
     "expo-asset": "~8.0.0",
     "expo-constants": "~8.0.0",
     "expo-font": "~8.0.0",
@@ -31,8 +33,7 @@
     "react-navigation": "~4.0.10",
     "react-navigation-stack": "~1.10.3",
     "react-navigation-tabs": "~2.6.2",
-    "expo-app-auth": "~8.0.0",
-    "expo-apple-authentication": "~2.0.0"
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
     "babel-preset-expo": "~8.0.0",

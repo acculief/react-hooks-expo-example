@@ -21,6 +21,11 @@ export default class ScrollableHeader extends Component {
     };
   }
 
+  componentDidMount() {
+    // setInterval(() => {
+    //   console.log(this.state.scrollY);
+    // }, 1000);
+  }
   _renderScrollViewContent() {
     const data = Array.from({ length: 30 });
     return (
@@ -55,7 +60,7 @@ export default class ScrollableHeader extends Component {
       <View style={styles.fill}>
         <ScrollView
           style={styles.fill}
-          scrollEventThrottle={16}
+          scrollEventThrottle={15}
           onScroll={Animated.event([
             { nativeEvent: { contentOffset: { y: this.state.scrollY } } }
           ])}
